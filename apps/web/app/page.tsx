@@ -1,6 +1,7 @@
 import { prisma } from "@repo/database";
 
 // some random change
+// some random change v2
 export default async function IndexPage() {
   const users = await prisma.user.findMany();
 
