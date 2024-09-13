@@ -1,0 +1,27 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT", ".env*"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
+    },
+    "db:migrate:deploy": {},
+    "db:push": {},
+    "db:seed": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "release": {
+      "cache": false,
+      "env": ["GITHUB_TOKEN", "CI"],
+      "inputs": ["$TURBO_DEFAULT", ".env*"],
+      "dependsOn": ["^release"]
+    },
+    "generate": {
+      "dependsOn": ["^generate"]
+    },
+    "lint": {}
+  }
+}

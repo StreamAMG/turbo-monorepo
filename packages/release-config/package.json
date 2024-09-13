@@ -1,0 +1,25 @@
+{
+    "name": "@package/release-config",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "devDependencies": {
+        "typescript": "^4.0.0"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StreamAMG/orchestrate.git"
+    },
+    "keywords": [],
+    "author": "Ivan Milovac",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/StreamAMG/orchestrate/issues"
+    },
+    "homepage": "https://github.com/StreamAMG/orchestrate#readme"
+}
