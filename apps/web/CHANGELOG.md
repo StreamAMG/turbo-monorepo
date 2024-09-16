@@ -1,3 +1,10 @@
+# [web@v1.0.1](https://github.com/StreamAMG/turbo-monorepo/compare/web@v1.0.0...web@v1.0.1) (2024-09-16)
+
+
+### Bug Fixes
+
+* **tests:** VO-XX provide test commits ([0b267bd](https://github.com/StreamAMG/turbo-monorepo/commit/0b267bdf6e7f87e5f2c7b100e6f68aece089789a))
+
 # web@v1.0.0 (2024-09-13)
 
 
