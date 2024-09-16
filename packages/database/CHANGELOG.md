@@ -1,3 +1,10 @@
+# [@repo/database@v1.1.0](https://github.com/StreamAMG/turbo-monorepo/compare/@repo/database@v1.0.1...@repo/database@v1.1.0) (2024-09-16)
+
+
+### Features
+
+* **updates:** VO-XX provide minor change ([32dfecd](https://github.com/StreamAMG/turbo-monorepo/commit/32dfecd2251c3fa6e09b6ae92acaffe9ba90ad79))
+
 # [@repo/database@v1.0.1](https://github.com/StreamAMG/turbo-monorepo/compare/@repo/database@v1.0.0...@repo/database@v1.0.1) (2024-09-16)
 
 
